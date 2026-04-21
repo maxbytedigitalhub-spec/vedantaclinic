@@ -291,11 +291,33 @@
       flex-wrap: wrap;
       animation: fadeUp 0.7s 0.4s var(--ease) both;
     }
-    .hero-location {
+
+    /* ===== HERO USP BOX (like timing badge) ===== */
+    .hero-usp-box {
       margin-top: 24px;
-      font-size: 0.8rem;
-      color: #c0bcb0;
+      padding: 12px 22px;
+      background: var(--gold-dim);
+      border: 1px solid var(--border);
+      border-radius: 60px;
+      display: inline-block;
+      color: var(--gold-light);
+      font-size: 0.85rem;
+      font-weight: 600;
+      line-height: 1.6;
+      backdrop-filter: blur(4px);
+      text-align: center;
       animation: fadeUp 0.7s 0.5s var(--ease) both;
+    }
+
+    /* ===== BLINK EFFECT ===== */
+    .highlight-blink {
+      animation: softBlink 1.8s infinite;
+    }
+
+    /* Smooth professional blink (not harsh) */
+    @keyframes softBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
     }
 
     /* ===== BUTTONS ===== */
@@ -387,8 +409,8 @@
     /* ===== TEAM ===== */
     .team-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-      gap: 24px;
+      grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+      gap: 28px;
     }
     .doctor-card {
       background: var(--surface);
@@ -415,12 +437,51 @@
       display: block;
     }
     .doctor-card:hover .doctor-img img { transform: scale(1.04); }
-    .doctor-info { padding: 24px; }
-    .doctor-info h3 { font-family: var(--font-display); font-size: 1.4rem; color: var(--gold); margin-bottom: 4px; }
-    .doctor-spec { font-size: 0.82rem; font-weight: 600; color: var(--gold-light); margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
-    .doctor-info p { font-size: 0.88rem; color: var(--muted); line-height: 1.6; }
+    .doctor-info { padding: 28px; }
+    .doctor-info h3 { font-family: var(--font-display); font-size: 1.5rem; color: var(--gold); margin-bottom: 6px; }
+    .doctor-spec { 
+      font-size: 0.82rem; 
+      font-weight: 600; 
+      color: var(--gold-light); 
+      margin-bottom: 14px; 
+      text-transform: uppercase; 
+      letter-spacing: 0.05em;
+      border-left: 2px solid var(--gold);
+      padding-left: 10px;
+    }
+    .doctor-info p { font-size: 0.9rem; color: #bcb8ae; line-height: 1.65; margin-bottom: 12px; }
+    .expertise-list {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0 0 0;
+    }
+    .expertise-list li {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .expertise-list li i {
+      color: var(--gold);
+      font-size: 0.7rem;
+      width: 18px;
+    }
+    .clinic-timing-badge {
+      text-align: center;
+      margin-top: 40px;
+      padding: 12px 20px;
+      background: var(--gold-dim);
+      border: 1px solid var(--border);
+      border-radius: 60px;
+      display: inline-block;
+      width: auto;
+      backdrop-filter: blur(4px);
+    }
+    .clinic-timing-badge i { margin-right: 6px; }
 
-    /* ===== SERVICES ===== */
+    /* ===== SERVICES (clickable cards with link styling) ===== */
     .services-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
@@ -435,6 +496,9 @@
       display: flex;
       flex-direction: column;
       gap: 8px;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
     }
     .service-card:hover { border-color: var(--gold); transform: translateY(-3px); }
     .service-icon {
@@ -445,8 +509,8 @@
       color: var(--gold);
       font-size: 1.15rem;
     }
-    .service-card h4 { font-size: 0.95rem; font-weight: 600; color: var(--white); }
-    .service-card p { font-size: 0.8rem; color: var(--muted); }
+    .service-card h4 { font-size: 0.95rem; font-weight: 600; color: var(--white); margin: 0; }
+    .service-card p { font-size: 0.8rem; color: var(--muted); margin: 0; }
 
     /* Problems grid */
     .problems-grid {
@@ -704,19 +768,23 @@
   <section id="home" class="hero">
     <div class="hero-content">
       <div class="hero-badge"><i class="fas fa-map-marker-alt"></i> Jawahar Colony, Faridabad</div>
-      <h1>The Best <span>Dental Care</span> Near You</h1>
-      <p class="hero-desc">Vedanta Dental Clinic offers painless root canals, implants, braces & complete cosmetic dentistry with 8+ years of trusted expertise.</p>
+      <h1>The Best <span>Dental Clinic</span></h1>
+      <p class="hero-desc">Vedanta Dental Clinic offers painless root canals, tooth extraction, dental implants, braces / aligners & complete cosmetic dentistry with 16+ years of trusted expertise.</p>
       <div class="hero-stats">
         <div class="stat-pill"><i class="fas fa-smile"></i> 1000+ Happy Patients</div>
         <div class="stat-pill"><i class="fas fa-star"></i> 4.7 Rating</div>
-        <div class="stat-pill"><i class="fas fa-calendar-alt"></i> 8+ Years Experience</div>
+        <div class="stat-pill"><i class="fas fa-calendar-alt"></i> 16+ Years Experience</div>
         <div class="stat-pill"><i class="fas fa-shield-alt"></i> Painless Treatment</div>
       </div>
       <div class="hero-actions">
         <a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone-alt"></i> Book Appointment</a>
         <a href="#" id="heroWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
       </div>
-      <p class="hero-location">📍 Serving Faridabad, Dabua, Jawahar Colony & nearby areas</p>
+      <!-- NEW BOXED USP WITH BLINK -->
+      <div class="hero-usp-box highlight-blink" style="color: greenyellow;">
+        ✨ First Dental Clinic Using Needle-Free Technique <br>
+        🦷 Digital Dentistry (Oral Scan) in NIT Faridabad
+      </div>
     </div>
   </section>
 
@@ -752,18 +820,52 @@
       </div>
       <div class="team-grid">
         <div class="doctor-card">
-          <div class="doctor-img"><img src="./drruby.jpg" alt="Dr. Rube Aggarwal" onerror="this.style.background='#1a1a22';this.src='https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80'"></div>
-          <div class="doctor-info"><h3>Dr. Rube Aggarwal</h3><div class="doctor-spec">Dental Surgeon & Cosmetic Dentist</div><p>Dr. Rube Aggarwal is known for advanced dental treatments, smile designing, and painless procedures.</p></div>
+          <div class="doctor-img">
+            <img src="./drruby.jpg" alt="Dr. Rube Aggarwal" onerror="this.style.background='#1a1a22';this.src='https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80'">
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Rube Aggarwal</h3>
+            <div class="doctor-spec">Dental Surgeon & Cosmetic Dentist | 14+ Years Experience</div>
+            <p>Dr. Rube Aggarwal has been practicing since 2012 and is known for advanced cosmetic dentistry, smile designing, and painless treatments. She has worked with reputed institutions such as Apollo Hospitals and Military Hospital Meerut. She focuses on providing comfortable, modern, and high-quality dental care.</p>
+           <ul class="expertise-list">
+              <li><i class="fas fa-check-circle"></i> RCT (Root Canal Treatment) – Single Visit</li>
+              <li><i class="fas fa-check-circle"></i> Painless Tooth Extraction</li>
+              <li><i class="fas fa-check-circle"></i> Special Care for Kids Dental Treatment</li>
+              <li><i class="fas fa-check-circle"></i> Denture Fabrication</li>
+              <li><i class="fas fa-check-circle"></i> Teeth Whitening</li>
+              <li><i class="fas fa-check-circle"></i> FMR (Full Mouth Rehabilitation)</li>
+              <li><i class="fas fa-check-circle"></i> Gum Surgery</li>
+            </ul>
+          </div>
         </div>
         <div class="doctor-card">
-          <div class="doctor-img"><img src="./ProfilePic_31654523_5505_49b1_980b_357f951d870a.webp" alt="Dr. Shashikant Kumar" onerror="this.style.background='#1a1a22';this.src='https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&q=80'"></div>
-          <div class="doctor-info"><h3>Dr. Shashikant Kumar</h3><div class="doctor-spec">Community Dentist | BDS | 8+ Years</div><p>Dr. Shashikant Kumar is one of the best dentists in Faridabad, providing root canal, implants, and general dental treatments.</p></div>
+          <div class="doctor-img">
+            <img src="./ProfilePic_31654523_5505_49b1_980b_357f951d870a.jpg" alt="Dr. Shashikant Kumar" onerror="this.style.background='#1a1a22';this.src='https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&q=80'">
+          </div>
+          <div class="doctor-info">
+            <h3>Dr. Shashikant Kumar</h3>
+            <div class="doctor-spec">Oral Medicine & Maxillofacial Radiologist | MDS | 16+ Years Experience</div>
+            <p>Dr. Shashikant Kumar has been practicing since 2010 and is a highly experienced Oral & Maxillofacial surgery. He specializes in oral surgery, dental implants, orthodontic treatments, and advanced dental care.</p>
+            <ul class="expertise-list">
+              <li><i class="fas fa-check-circle"></i> Single-Visit Dental Implants</li>
+              <li><i class="fas fa-check-circle"></i> Wire-less (Aligner) Treatment</li>
+              <li><i class="fas fa-check-circle"></i> Tooth-Colored Braces</li>
+              <li><i class="fas fa-check-circle"></i> Wisdom Tooth Surgery</li>
+              <li><i class="fas fa-check-circle"></i> Maxillofacial Trauma Management</li>
+            </ul>
+            <p style="margin-top: 10px;">Known for precision and advanced techniques, he ensures safe, effective, and long-lasting dental treatments.</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 44px;">
+        <div class="clinic-timing-badge">
+          <i class="far fa-clock"></i> ⏰ Clinic Timings: 10:00 AM – 3:00 PM &nbsp;|&nbsp; 5:00 PM – 9:00 PM
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== SERVICES ===== -->
+  <!-- ===== SERVICES (CLICKABLE WIKIPEDIA LINKS) ===== -->
   <section id="services" class="section section-alt">
     <div class="container">
       <div class="section-head">
@@ -773,18 +875,66 @@
         <p class="section-sub">Complete dental care for patients from across Faridabad and nearby areas.</p>
       </div>
       <div class="services-grid">
-        <div class="service-card"><div class="service-icon"><i class="fas fa-tooth"></i></div><h4>Root Canal Treatment</h4><p>Painless RCT</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-teeth"></i></div><h4>Dental Implants</h4><p>Permanent replacement</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-smile"></i></div><h4>Braces & Aligners</h4><p>Teeth straightening</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-broom"></i></div><h4>Teeth Cleaning</h4><p>Scaling & polishing</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-star"></i></div><h4>Teeth Whitening</h4><p>Brighter smile</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-tools"></i></div><h4>Tooth Extraction</h4><p>Safe & gentle</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-brain"></i></div><h4>Wisdom Tooth Removal</h4><p>Expert care</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-user-injured"></i></div><h4>Dentures</h4><p>Artificial teeth</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-laugh-beam"></i></div><h4>Smile Makeover</h4><p>Complete transformation</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-child"></i></div><h4>Kids Dentistry</h4><p>Gentle pediatric care</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-hand-holding-heart"></i></div><h4>Gum Treatment</h4><p>Healthy gums</p></div>
-        <div class="service-card"><div class="service-icon"><i class="fas fa-circle-nodes"></i></div><h4>Laser Dental Treatment</h4><p>Advanced precision</p></div>
+        <a href="https://en.wikipedia.org/wiki/Root_canal" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-tooth"></i></div>
+          <h4>Root Canal Treatment</h4>
+          <p>Painless RCT</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Dental_implant" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-teeth"></i></div>
+          <h4>Dental Implants</h4>
+          <p>Permanent replacement</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Dental_braces" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-smile"></i></div>
+          <h4>Braces & Aligners</h4>
+          <p>Teeth straightening</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Teeth_cleaning" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-broom"></i></div>
+          <h4>Teeth Cleaning</h4>
+          <p>Scaling & polishing</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Tooth_whitening" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-star"></i></div>
+          <h4>Teeth Whitening</h4>
+          <p>Brighter smile</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Tooth_extraction" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-tools"></i></div>
+          <h4>Tooth Extraction</h4>
+          <p>Safe & gentle</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Wisdom_tooth" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-brain"></i></div>
+          <h4>Wisdom Tooth Removal</h4>
+          <p>Expert care</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Dentures" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-user-injured"></i></div>
+          <h4>Dentures</h4>
+          <p>Artificial teeth</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Cosmetic_dentistry" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-laugh-beam"></i></div>
+          <h4>Smile Makeover</h4>
+          <p>Complete transformation</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Pediatric_dentistry" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-child"></i></div>
+          <h4>Kids Dentistry</h4>
+          <p>Gentle pediatric care</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Periodontology" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-hand-holding-heart"></i></div>
+          <h4>Gum Treatment</h4>
+          <p>Healthy gums</p>
+        </a>
+        <a href="https://en.wikipedia.org/wiki/Laser_dentistry" target="_blank" class="service-card">
+          <div class="service-icon"><i class="fas fa-circle-nodes"></i></div>
+          <h4>Laser Dental Treatment</h4>
+          <p>Advanced precision</p>
+        </a>
       </div>
     </div>
   </section>
@@ -804,6 +954,8 @@
         <div class="problem-card"><h4>📐 Teeth Alignment Issues</h4><p>Braces & clear aligners</p></div>
         <div class="problem-card"><h4>🩸 Bleeding Gums</h4><p>Gum treatment & scaling</p></div>
         <div class="problem-card"><h4>😣 Wisdom Tooth Pain</h4><p>Safe wisdom tooth removal</p></div>
+        <div class="problem-card"><h4>🦷 Fixed Denture Implants</h4><p>Permanent teeth replacement</p></div>
+        <div class="problem-card"><h4>🩺 Maxillofacial Trauma</h4><p>Advanced facial injury management</p></div>
       </div>
     </div>
   </section>
@@ -883,7 +1035,7 @@
       <div class="contact-wrap">
         <div class="contact-info">
           <h2>Let's Talk Dental</h2>
-          <div class="contact-row"><div class="contact-row-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-row-text"><p>Address</p><p>H.No 35, Gurdwar Road, Opposite Kumar Optics, Jawahar Colony, Faridabad, Haryana 121005</p></div></div>
+          <div class="contact-row"><div class="contact-row-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-row-text"><p>Address</p><p>H.No 35, Gurdwara Road, Opposite Kumar Optics, Jawahar Colony, Faridabad, Haryana 121005</p></div></div>
           <div class="contact-row"><div class="contact-row-icon"><i class="fas fa-phone-alt"></i></div><div class="contact-row-text"><p>Phone</p><p>+91 99580 37979</p></div></div>
           <div class="contact-row"><div class="contact-row-icon"><i class="far fa-clock"></i></div><div class="contact-row-text"><p>Hours</p><p>Mon–Sat: 10:00 AM – 7:00 PM<br>Sunday: Emergency Only</p></div></div>
           <div class="contact-btns"><a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone"></i> Call Now</a><a href="#" id="contactWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
