@@ -1,1136 +1,1700 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Vedanta Dental Clinic | Best Dentist Near You in Faridabad</title> 
-  <meta name="description" content="Looking for the best dentist near you? Vedanta Dental Clinic offers painless root canal, implants, braces & complete dental care in Faridabad. Book appointment today.">
-  <meta name="keywords" content="dentist near me, best dentist in Faridabad, dental clinic near me, root canal treatment, dental implants, braces treatment, teeth cleaning dentist, cosmetic dentist Faridabad">
-  <meta name="author" content="Vedanta Dental Clinic">
-  <meta name="geo.region" content="IN-HR">
-  <meta name="geo.placename" content="Faridabad">
-  <link rel="icon" type="image/png" href="./favicon.png">
-  <link rel="canonical" href="https://www.vedantadental.com/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Vedanta Dental Clinic | Best Dentist Near You in Faridabad</title>
+    <meta name="description" content="Looking for the best dentist near you? Vedanta Dental Clinic offers painless root canal, implants, braces & complete dental care in Faridabad. Book appointment today.">
+    <meta name="keywords" content="dentist near me, best dentist in Faridabad, dental clinic near me, root canal treatment, dental implants, braces treatment, teeth cleaning dentist, cosmetic dentist Faridabad">
+    <meta name="author" content="Vedanta Dental Clinic">
+    <meta name="geo.region" content="IN-HR">
+    <meta name="geo.placename" content="Faridabad">
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="canonical" href="https://www.vedantadental.com/">
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <style>
-    /* ===== RESET & FIXES: NO HORIZONTAL SCROLL ===== */
-    *, *::before, *::after {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      max-width: 100%;
-    }
-    html {
-      scroll-behavior: smooth;
-      overflow-x: hidden;
-      max-width: 100%;
-    }
-    body {
-      font-family: 'DM Sans', system-ui, sans-serif;
-      background: #070709;
-      color: #e8e6e0;
-      line-height: 1.6;
-      overflow-x: hidden;
-      max-width: 100%;
-    }
+    <style>
+        /* ===== RESET & FIXES: NO HORIZONTAL SCROLL ===== */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            max-width: 100%;
+        }
+        html {
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            max-width: 100%;
+        }
+        body {
+            font-family: 'DM Sans', system-ui, sans-serif;
+            background: #070709;
+            color: #e8e6e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+            max-width: 100%;
+        }
 
-    /* ===== FIX: anchor scroll offset ===== */
-    section, div[id], .section {
-      scroll-margin-top: 90px;
-    }
+        /* ===== FIX: anchor scroll offset ===== */
+        section,
+        div[id],
+        .section {
+            scroll-margin-top: 90px;
+        }
 
-    /* ===== VARIABLES ===== */
-    :root {
-      --gold: #c9a84c;
-      --gold-light: #e8c96d;
-      --gold-dim: rgba(201,168,76,0.15);
-      --bg: #070709;
-      --bg2: #0d0d10;
-      --bg3: #111118;
-      --surface: #16161e;
-      --border: rgba(201,168,76,0.18);
-      --text: #e8e6e0;
-      --muted: #7a7870;
-      --white: #ffffff;
-      --font-display: 'Playfair Display', Georgia, serif;
-      --font-body: 'DM Sans', system-ui, sans-serif;
-      --ease: cubic-bezier(0.16,1,0.3,1);
-      --r-sm: 12px;
-      --r-md: 20px;
-      --r-lg: 32px;
-    }
+        /* ===== VARIABLES ===== */
+        :root {
+            --gold: #c9a84c;
+            --gold-light: #e8c96d;
+            --gold-dim: rgba(201, 168, 76, 0.15);
+            --bg: #070709;
+            --bg2: #0d0d10;
+            --bg3: #111118;
+            --surface: #16161e;
+            --border: rgba(201, 168, 76, 0.18);
+            --text: #e8e6e0;
+            --muted: #7a7870;
+            --white: #ffffff;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-body: 'DM Sans', system-ui, sans-serif;
+            --ease: cubic-bezier(0.16, 1, 0.3, 1);
+            --r-sm: 12px;
+            --r-md: 20px;
+            --r-lg: 32px;
+        }
 
-    /* ===== GRAIN OVERLAY ===== */
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
-      pointer-events: none;
-      z-index: 9999;
-      opacity: 0.5;
-    }
+        /* ===== GRAIN OVERLAY ===== */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 9999;
+            opacity: 0.5;
+        }
 
-    /* ===== CONTAINER ===== */
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 clamp(16px, 4vw, 40px);
-      overflow: hidden;
-    }
+        /* ===== CONTAINER ===== */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 clamp(16px, 4vw, 40px);
+            overflow: hidden;
+        }
 
-    /* ===== HEADER ===== */
-    .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(7,7,9,0.92);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border-bottom: 1px solid var(--border);
-    }
-    .header-inner {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      padding: 14px clamp(16px, 4vw, 40px);
-      max-width: 1300px;
-      margin: 0 auto;
-    }
+        /* ===== HEADER ===== */
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(7, 7, 9, 0.92);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+        }
+        .header-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            padding: 14px clamp(16px, 4vw, 40px);
+            max-width: 1300px;
+            margin: 0 auto;
+        }
 
-    .logo {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      text-decoration: none;
-      flex-shrink: 0;
-    }
-    .logo-img {
-      height: 42px;
-      width: auto;
-      object-fit: contain;
-      display: block;
-    }
-    .logo-text h1 {
-      font-family: var(--font-display);
-      font-size: clamp(0.95rem, 2vw, 1.15rem);
-      font-weight: 700;
-      color: var(--gold);
-      line-height: 1.2;
-    }
-    .logo-text p {
-      font-size: 0.65rem;
-      color: var(--muted);
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-    }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+        .logo-img {
+            height: 42px;
+            width: auto;
+            object-fit: contain;
+            display: block;
+        }
+        .logo-text h1 {
+            font-family: var(--font-display);
+            font-size: clamp(0.95rem, 2vw, 1.15rem);
+            font-weight: 700;
+            color: var(--gold);
+            line-height: 1.2;
+        }
+        .logo-text p {
+            font-size: 0.65rem;
+            color: var(--muted);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
 
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: clamp(14px, 2.5vw, 28px);
-    }
-    .nav-links a {
-      text-decoration: none;
-      font-size: 0.88rem;
-      font-weight: 500;
-      color: #b0aca0;
-      transition: color 0.2s;
-      white-space: nowrap;
-    }
-    .nav-links a:hover { color: var(--gold); }
-    .nav-cta {
-      background: var(--gold);
-      color: #070709 !important;
-      padding: 8px 18px;
-      border-radius: 40px;
-      font-weight: 600 !important;
-      font-size: 0.85rem !important;
-      transition: background 0.2s, transform 0.2s !important;
-    }
-    .nav-cta:hover { background: var(--gold-light) !important; transform: translateY(-1px); }
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: clamp(14px, 2.5vw, 28px);
+        }
+        .nav-links a {
+            text-decoration: none;
+            font-size: 0.88rem;
+            font-weight: 500;
+            color: #b0aca0;
+            transition: color 0.2s;
+            white-space: nowrap;
+        }
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+        .nav-cta {
+            background: var(--gold);
+            color: #070709 !important;
+            padding: 8px 18px;
+            border-radius: 40px;
+            font-weight: 600 !important;
+            font-size: 0.85rem !important;
+            transition: background 0.2s, transform 0.2s !important;
+        }
+        .nav-cta:hover {
+            background: var(--gold-light) !important;
+            transform: translateY(-1px);
+        }
 
-    .hamburger {
-      display: none;
-      background: none;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      width: 40px; height: 40px;
-      cursor: pointer;
-      color: var(--text);
-      font-size: 1.1rem;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-    }
+        .hamburger {
+            display: none;
+            background: none;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            color: var(--text);
+            font-size: 1.1rem;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
 
-    /* ===== MOBILE MENU ===== */
-    @media (max-width: 820px) {
-      .hamburger { display: flex; }
-      .nav-links {
-        position: fixed;
-        top: 0;
-        right: 0;
-        transform: translateX(100%);
-        width: min(320px, 85vw);
-        height: 100vh;
-        background: #0d0d10;
-        border-left: 1px solid var(--border);
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0;
-        padding: 80px 28px 40px;
-        transition: transform 0.35s var(--ease);
-        z-index: 200;
-        overflow-y: auto;
-      }
-      .nav-links.open {
-        transform: translateX(0);
-      }
-      .nav-links a {
-        width: 100%;
-        padding: 14px 0;
-        border-bottom: 1px solid var(--border);
-        font-size: 1rem;
-      }
-      .nav-cta {
-        margin-top: 16px;
-        border-bottom: none !important;
-        display: inline-block;
-        width: auto !important;
-        padding: 10px 22px !important;
-      }
-      .nav-overlay {
-        display: none;
-        position: fixed;
-        inset: 0;
-        background: rgba(0,0,0,0.6);
-        z-index: 199;
-      }
-      .nav-overlay.open { display: block; }
-      .close-nav {
-        position: absolute;
-        top: 20px; right: 20px;
-        background: none;
-        border: 1px solid var(--border);
-        border-radius: 8px;
-        width: 36px; height: 36px;
-        display: flex; align-items: center; justify-content: center;
-        color: var(--text);
-        cursor: pointer;
-        font-size: 1rem;
-      }
-    }
+        /* ===== MOBILE MENU ===== */
+        @media (max-width: 820px) {
+            .hamburger {
+                display: flex;
+            }
+            .nav-links {
+                position: fixed;
+                top: 0;
+                right: 0;
+                transform: translateX(100%);
+                width: min(320px, 85vw);
+                height: 100vh;
+                background: #0d0d10;
+                border-left: 1px solid var(--border);
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0;
+                padding: 80px 28px 40px;
+                transition: transform 0.35s var(--ease);
+                z-index: 200;
+                overflow-y: auto;
+            }
+            .nav-links.open {
+                transform: translateX(0);
+            }
+            .nav-links a {
+                width: 100%;
+                padding: 14px 0;
+                border-bottom: 1px solid var(--border);
+                font-size: 1rem;
+            }
+            .nav-cta {
+                margin-top: 16px;
+                border-bottom: none !important;
+                display: inline-block;
+                width: auto !important;
+                padding: 10px 22px !important;
+            }
+            .nav-overlay {
+                display: none;
+                position: fixed;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.6);
+                z-index: 199;
+            }
+            .nav-overlay.open {
+                display: block;
+            }
+            .close-nav {
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                background: none;
+                border: 1px solid var(--border);
+                border-radius: 8px;
+                width: 36px;
+                height: 36px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: var(--text);
+                cursor: pointer;
+                font-size: 1rem;
+            }
+        }
 
-    @media (min-width: 821px) {
-      .nav-links {
-        position: static !important;
-        height: auto !important;
-        width: auto !important;
-        flex-direction: row !important;
-        background: transparent !important;
-        border: none !important;
-        padding: 0 !important;
-        right: 0 !important;
-        transform: none !important;
-      }
-      .nav-overlay { display: none !important; }
-      .close-nav { display: none; }
-    }
+        @media (min-width: 821px) {
+            .nav-links {
+                position: static !important;
+                height: auto !important;
+                width: auto !important;
+                flex-direction: row !important;
+                background: transparent !important;
+                border: none !important;
+                padding: 0 !important;
+                right: 0 !important;
+                transform: none !important;
+            }
+            .nav-overlay {
+                display: none !important;
+            }
+            .close-nav {
+                display: none;
+            }
+        }
 
-    /* ===== HERO ===== */
-    .hero {
-      position: relative;
-      min-height: clamp(88vh, 100vh, 100vh);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
-      background: url('./drrubyclinic.jpg') center/cover no-repeat;
-    }
-    .hero::before {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(7, 7, 9, 0.7);
-      z-index: 1;
-    }
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      text-align: center;
-      padding: clamp(60px, 10vh, 100px) clamp(16px, 5vw, 60px);
-      max-width: 860px;
-    }
-    .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--gold-dim);
-      border: 1px solid var(--border);
-      border-radius: 40px;
-      padding: 6px 16px;
-      font-size: 0.78rem;
-      color: var(--gold);
-      font-weight: 500;
-      letter-spacing: 0.04em;
-      margin-bottom: 28px;
-      animation: fadeUp 0.6s var(--ease) both;
-    }
-    .hero h1 {
-      font-family: var(--font-display);
-      font-size: clamp(2.2rem, 6vw, 4.2rem);
-      font-weight: 800;
-      color: var(--white);
-      line-height: 1.12;
-      margin-bottom: 20px;
-      animation: fadeUp 0.7s 0.1s var(--ease) both;
-    }
-    .hero h1 span { color: var(--gold); font-style: italic; }
-    .hero-desc {
-      font-size: clamp(0.95rem, 2vw, 1.1rem);
-      color: #e0ddd5;
-      max-width: 600px;
-      margin: 0 auto 36px;
-      animation: fadeUp 0.7s 0.2s var(--ease) both;
-    }
-    .hero-stats {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-bottom: 36px;
-      animation: fadeUp 0.7s 0.3s var(--ease) both;
-    }
-    .stat-pill {
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      background: rgba(0,0,0,0.6);
-      border: 1px solid rgba(255,255,255,0.1);
-      border-radius: 40px;
-      padding: 7px 16px;
-      font-size: 0.82rem;
-      font-weight: 500;
-    }
-    .stat-pill i { color: var(--gold); font-size: 0.9rem; }
-    .hero-actions {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      flex-wrap: wrap;
-      animation: fadeUp 0.7s 0.4s var(--ease) both;
-    }
+        /* ===== HERO ===== */
+        .hero {
+            position: relative;
+            min-height: clamp(88vh, 100vh, 100vh);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            background: url('./drrubyclinic.jpg') center/cover no-repeat;
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(7, 7, 9, 0.7);
+            z-index: 1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            padding: clamp(60px, 10vh, 100px) clamp(16px, 5vw, 60px);
+            max-width: 860px;
+        }
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--gold-dim);
+            border: 1px solid var(--border);
+            border-radius: 40px;
+            padding: 6px 16px;
+            font-size: 0.78rem;
+            color: var(--gold);
+            font-weight: 500;
+            letter-spacing: 0.04em;
+            margin-bottom: 28px;
+            animation: fadeUp 0.6s var(--ease) both;
+        }
+        .hero h1 {
+            font-family: var(--font-display);
+            font-size: clamp(2.2rem, 6vw, 4.2rem);
+            font-weight: 800;
+            color: var(--white);
+            line-height: 1.12;
+            margin-bottom: 20px;
+            animation: fadeUp 0.7s 0.1s var(--ease) both;
+        }
+        .hero h1 span {
+            color: var(--gold);
+            font-style: italic;
+        }
+        .hero-desc {
+            font-size: clamp(0.95rem, 2vw, 1.1rem);
+            color: #e0ddd5;
+            max-width: 600px;
+            margin: 0 auto 36px;
+            animation: fadeUp 0.7s 0.2s var(--ease) both;
+        }
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 36px;
+            animation: fadeUp 0.7s 0.3s var(--ease) both;
+        }
+        .stat-pill {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            background: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 40px;
+            padding: 7px 16px;
+            font-size: 0.82rem;
+            font-weight: 500;
+        }
+        .stat-pill i {
+            color: var(--gold);
+            font-size: 0.9rem;
+        }
+        .hero-actions {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            animation: fadeUp 0.7s 0.4s var(--ease) both;
+        }
 
-    .hero-usp-box {
-      margin-top: 24px;
-      padding: 12px 22px;
-      background: var(--gold-dim);
-      border: 1px solid var(--border);
-      border-radius: 60px;
-      display: inline-block;
-      color: var(--gold-light);
-      font-size: 0.85rem;
-      font-weight: 600;
-      line-height: 1.6;
-      backdrop-filter: blur(4px);
-      text-align: center;
-      animation: fadeUp 0.7s 0.5s var(--ease) both;
-    }
+        .hero-usp-box {
+            margin-top: 24px;
+            padding: 12px 22px;
+            background: var(--gold-dim);
+            border: 1px solid var(--border);
+            border-radius: 60px;
+            display: inline-block;
+            color: var(--gold-light);
+            font-size: 0.85rem;
+            font-weight: 600;
+            line-height: 1.6;
+            backdrop-filter: blur(4px);
+            text-align: center;
+            animation: fadeUp 0.7s 0.5s var(--ease) both;
+        }
 
-    .highlight-blink {
-      animation: softBlink 1.8s infinite;
-    }
+        .highlight-blink {
+            animation: softBlink 1.8s infinite;
+        }
 
-    @keyframes softBlink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.4; }
-    }
+        @keyframes softBlink {
+            0%,
+            100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.4;
+            }
+        }
 
-    /* ===== BUTTONS ===== */
-    .btn-gold, .btn-outline {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 12px 26px;
-      border-radius: 40px;
-      font-weight: 600;
-      font-size: 0.9rem;
-      text-decoration: none;
-      cursor: pointer;
-      border: none;
-      transition: all 0.22s var(--ease);
-      font-family: var(--font-body);
-    }
-    .btn-gold {
-      background: linear-gradient(135deg, var(--gold), var(--gold-light));
-      color: #070709;
-      box-shadow: 0 4px 24px rgba(201,168,76,0.25);
-    }
-    .btn-gold:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(201,168,76,0.35); }
-    .btn-outline {
-      background: transparent;
-      color: var(--gold);
-      border: 1px solid var(--gold);
-    }
-    .btn-outline:hover { background: var(--gold-dim); transform: translateY(-2px); }
+        /* ===== BUTTONS ===== */
+        .btn-gold,
+        .btn-outline {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 26px;
+            border-radius: 40px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: all 0.22s var(--ease);
+            font-family: var(--font-body);
+        }
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold), var(--gold-light));
+            color: #070709;
+            box-shadow: 0 4px 24px rgba(201, 168, 76, 0.25);
+        }
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(201, 168, 76, 0.35);
+        }
+        .btn-outline {
+            background: transparent;
+            color: var(--gold);
+            border: 1px solid var(--gold);
+        }
+        .btn-outline:hover {
+            background: var(--gold-dim);
+            transform: translateY(-2px);
+        }
 
-    /* ===== SECTION STYLES ===== */
-    .section { padding: clamp(56px, 8vw, 96px) 0; }
-    .section-alt { background: var(--bg2); }
-    .section-head { text-align: center; margin-bottom: clamp(36px, 5vw, 56px); }
-    .section-label {
-      display: inline-block;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--gold);
-      background: var(--gold-dim);
-      padding: 5px 14px;
-      border-radius: 40px;
-      margin-bottom: 16px;
-    }
-    .section-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.7rem, 4vw, 2.8rem);
-      font-weight: 700;
-      color: var(--white);
-      line-height: 1.2;
-      margin-bottom: 14px;
-    }
-    .section-sub {
-      font-size: clamp(0.88rem, 1.8vw, 1rem);
-      color: var(--muted);
-      max-width: 560px;
-      margin: 0 auto;
-    }
+        /* ===== SECTION STYLES ===== */
+        .section {
+            padding: clamp(56px, 8vw, 96px) 0;
+        }
+        .section-alt {
+            background: var(--bg2);
+        }
+        .section-head {
+            text-align: center;
+            margin-bottom: clamp(36px, 5vw, 56px);
+        }
+        .section-label {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+            color: var(--gold);
+            background: var(--gold-dim);
+            padding: 5px 14px;
+            border-radius: 40px;
+            margin-bottom: 16px;
+        }
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(1.7rem, 4vw, 2.8rem);
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.2;
+            margin-bottom: 14px;
+        }
+        .section-sub {
+            font-size: clamp(0.88rem, 1.8vw, 1rem);
+            color: var(--muted);
+            max-width: 560px;
+            margin: 0 auto;
+        }
 
-    /* ===== WHY US ===== */
-    .why-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
-      gap: 16px;
-    }
-    .why-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-md);
-      padding: 28px 20px;
-      text-align: center;
-      transition: border-color 0.25s, transform 0.25s;
-    }
-    .why-card:hover { border-color: var(--gold); transform: translateY(-4px); }
-    .why-icon {
-      width: 52px; height: 52px;
-      background: var(--gold-dim);
-      border-radius: 14px;
-      display: grid; place-items: center;
-      margin: 0 auto 16px;
-      font-size: 1.3rem;
-      color: var(--gold);
-    }
-    .why-card h4 { font-size: 0.95rem; font-weight: 600; color: var(--white); margin-bottom: 6px; }
-    .why-card p { font-size: 0.82rem; color: var(--muted); }
+        /* ===== WHY US ===== */
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+            gap: 16px;
+        }
+        .why-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            padding: 28px 20px;
+            text-align: center;
+            transition: border-color 0.25s, transform 0.25s;
+        }
+        .why-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-4px);
+        }
+        .why-icon {
+            width: 52px;
+            height: 52px;
+            background: var(--gold-dim);
+            border-radius: 14px;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 16px;
+            font-size: 1.3rem;
+            color: var(--gold);
+        }
+        .why-card h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 6px;
+        }
+        .why-card p {
+            font-size: 0.82rem;
+            color: var(--muted);
+        }
 
-    /* ===== TEAM ===== */
-    .team-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
-      gap: 28px;
-    }
-    .doctor-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-lg);
-      overflow: hidden;
-      transition: border-color 0.25s, transform 0.25s;
-    }
-    .doctor-card:hover { border-color: var(--gold); transform: translateY(-5px); }
-    .doctor-img {
-      height: clamp(260px, 35vw, 340px);
-      overflow: hidden;
-      background: #1a1a22;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .doctor-img img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: top center;
-      transition: transform 0.4s var(--ease);
-      display: block;
-    }
-    .doctor-card:hover .doctor-img img { transform: scale(1.04); }
-    .doctor-info { padding: 28px; }
-    .doctor-info h3 { font-family: var(--font-display); font-size: 1.5rem; color: var(--gold); margin-bottom: 6px; }
-    .doctor-spec { 
-      font-size: 0.82rem; 
-      font-weight: 600; 
-      color: var(--gold-light); 
-      margin-bottom: 14px; 
-      text-transform: uppercase; 
-      letter-spacing: 0.05em;
-      border-left: 2px solid var(--gold);
-      padding-left: 10px;
-    }
-    .doctor-info p { font-size: 0.9rem; color: #bcb8ae; line-height: 1.65; margin-bottom: 12px; }
-    .expertise-list {
-      list-style: none;
-      padding: 0;
-      margin: 12px 0 0 0;
-    }
-    .expertise-list li {
-      font-size: 0.85rem;
-      color: var(--muted);
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .expertise-list li i {
-      color: var(--gold);
-      font-size: 0.7rem;
-      width: 18px;
-    }
-    .clinic-timing-badge {
-      text-align: center;
-      margin-top: 40px;
-      padding: 12px 20px;
-      background: var(--gold-dim);
-      border: 1px solid var(--border);
-      border-radius: 60px;
-      display: inline-block;
-      width: auto;
-      backdrop-filter: blur(4px);
-    }
-    .clinic-timing-badge i { margin-right: 6px; }
+        /* ===== TEAM ===== */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+            gap: 28px;
+        }
+        .doctor-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r-lg);
+            overflow: hidden;
+            transition: border-color 0.25s, transform 0.25s;
+        }
+        .doctor-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+        }
+        .doctor-img {
+            height: clamp(260px, 35vw, 340px);
+            overflow: hidden;
+            background: #1a1a22;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .doctor-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+            transition: transform 0.4s var(--ease);
+            display: block;
+        }
+        .doctor-card:hover .doctor-img img {
+            transform: scale(1.04);
+        }
+        .doctor-info {
+            padding: 28px;
+        }
+        .doctor-info h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 6px;
+        }
+        .doctor-spec {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--gold-light);
+            margin-bottom: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border-left: 2px solid var(--gold);
+            padding-left: 10px;
+        }
+        .doctor-info p {
+            font-size: 0.9rem;
+            color: #bcb8ae;
+            line-height: 1.65;
+            margin-bottom: 12px;
+        }
+        .expertise-list {
+            list-style: none;
+            padding: 0;
+            margin: 12px 0 0 0;
+        }
+        .expertise-list li {
+            font-size: 0.85rem;
+            color: var(--muted);
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .expertise-list li i {
+            color: var(--gold);
+            font-size: 0.7rem;
+            width: 18px;
+        }
+        .clinic-timing-badge {
+            text-align: center;
+            margin-top: 40px;
+            padding: 12px 20px;
+            background: var(--gold-dim);
+            border: 1px solid var(--border);
+            border-radius: 60px;
+            display: inline-block;
+            width: auto;
+            backdrop-filter: blur(4px);
+        }
+        .clinic-timing-badge i {
+            margin-right: 6px;
+        }
 
-    /* ===== SERVICES ===== */
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
-      gap: 14px;
-    }
-    .service-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-md);
-      padding: 22px 18px;
-      transition: border-color 0.22s, transform 0.22s;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      text-decoration: none;
-      color: inherit;
-      cursor: pointer;
-    }
-    .service-card:hover { border-color: var(--gold); transform: translateY(-3px); }
-    .service-icon {
-      width: 44px; height: 44px;
-      background: var(--gold-dim);
-      border-radius: 12px;
-      display: grid; place-items: center;
-      color: var(--gold);
-      font-size: 1.15rem;
-    }
-    .service-card h4 { font-size: 0.95rem; font-weight: 600; color: var(--white); margin: 0; }
-    .service-card p { font-size: 0.8rem; color: var(--muted); margin: 0; }
+        /* ===== SERVICES ===== */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+            gap: 14px;
+        }
+        .service-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            padding: 22px 18px;
+            transition: border-color 0.22s, transform 0.22s;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            text-decoration: none;
+            color: inherit;
+            cursor: pointer;
+        }
+        .service-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-3px);
+        }
+        .service-icon {
+            width: 44px;
+            height: 44px;
+            background: var(--gold-dim);
+            border-radius: 12px;
+            display: grid;
+            place-items: center;
+            color: var(--gold);
+            font-size: 1.15rem;
+        }
+        .service-card h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--white);
+            margin: 0;
+        }
+        .service-card p {
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin: 0;
+        }
 
-    .problems-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
-      gap: 14px;
-    }
-    .problem-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-md);
-      padding: 20px 20px;
-      transition: border-color 0.22s;
-    }
-    .problem-card:hover { border-color: var(--gold); }
-    .problem-card h4 { font-size: 0.95rem; font-weight: 600; color: var(--white); margin-bottom: 5px; }
-    .problem-card p { font-size: 0.8rem; color: var(--muted); }
+        .problems-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr));
+            gap: 14px;
+        }
+        .problem-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            padding: 20px 20px;
+            transition: border-color 0.22s;
+        }
+        .problem-card:hover {
+            border-color: var(--gold);
+        }
+        .problem-card h4 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--white);
+            margin-bottom: 5px;
+        }
+        .problem-card p {
+            font-size: 0.8rem;
+            color: var(--muted);
+        }
 
-    /* ===== GALLERY ===== */
-    .gallery-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
-      gap: 18px;
-    }
-    .gallery-card {
-      border-radius: var(--r-md);
-      overflow: hidden;
-      border: 1px solid var(--border);
-      position: relative;
-      background: #111;
-    }
-    .gallery-card img { width: 100%; height: 240px; object-fit: cover; display: block; transition: transform 0.4s var(--ease); }
-    .gallery-card:hover img { transform: scale(1.05); }
-    .gallery-label {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-      background: linear-gradient(0deg, rgba(0,0,0,0.85) 0%, transparent 100%);
-      padding: 20px 16px 14px;
-      font-size: 0.85rem;
-      font-weight: 500;
-    }
+        /* ===== GALLERY ===== */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+            gap: 18px;
+        }
+        .gallery-card {
+            border-radius: var(--r-md);
+            overflow: hidden;
+            border: 1px solid var(--border);
+            position: relative;
+            background: #111;
+        }
+        .gallery-card img {
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.4s var(--ease);
+        }
+        .gallery-card:hover img {
+            transform: scale(1.05);
+        }
+        .gallery-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, transparent 100%);
+            padding: 20px 16px 14px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
 
-    /* ===== TESTIMONIALS ===== */
-    .testimonial-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
-      gap: 18px;
-    }
-    .testimonial-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-md);
-      padding: 28px 24px;
-      position: relative;
-    }
-    .testimonial-card::before {
-      content: '\201C';
-      position: absolute;
-      top: 16px; right: 20px;
-      font-family: var(--font-display);
-      font-size: 5rem;
-      color: var(--gold-dim);
-      line-height: 1;
-      pointer-events: none;
-    }
-    .stars { color: var(--gold); font-size: 0.8rem; margin-bottom: 12px; letter-spacing: 2px; }
-    .testimonial-card p { font-size: 0.9rem; color: #b0aca0; font-style: italic; margin-bottom: 16px; line-height: 1.7; }
-    .testimonial-author { font-weight: 600; font-size: 0.85rem; color: var(--white); }
-    .testimonial-score { font-size: 0.78rem; color: var(--gold); margin-top: 2px; }
+        /* ===== TESTIMONIALS ===== */
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+            gap: 18px;
+        }
+        .testimonial-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            padding: 28px 24px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            font-family: var(--font-display);
+            font-size: 5rem;
+            color: var(--gold-dim);
+            line-height: 1;
+            pointer-events: none;
+        }
+        .stars {
+            color: var(--gold);
+            font-size: 0.8rem;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+        }
+        .testimonial-card p {
+            font-size: 0.9rem;
+            color: #b0aca0;
+            font-style: italic;
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        .testimonial-author {
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: var(--white);
+        }
+        .testimonial-score {
+            font-size: 0.78rem;
+            color: var(--gold);
+            margin-top: 2px;
+        }
 
-    /* ===== FAQ ===== */
-    .faq-list { max-width: 720px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
-    .faq-item {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-md);
-      overflow: hidden;
-    }
-    .faq-q {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 12px;
-      padding: 18px 22px;
-      background: none;
-      border: none;
-      cursor: pointer;
-      font-family: var(--font-body);
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: var(--white);
-      text-align: left;
-    }
-    .faq-q i { color: var(--gold); font-size: 0.85rem; transition: transform 0.3s; flex-shrink: 0; }
-    .faq-q.open i { transform: rotate(45deg); }
-    .faq-a {
-      display: none;
-      padding: 0 22px 18px;
-      font-size: 0.88rem;
-      color: var(--muted);
-      line-height: 1.7;
-    }
-    .faq-a.open { display: block; }
+        /* ===== FAQ ===== */
+        .faq-list {
+            max-width: 720px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .faq-item {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r-md);
+            overflow: hidden;
+        }
+        .faq-q {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 18px 22px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: var(--font-body);
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--white);
+            text-align: left;
+        }
+        .faq-q i {
+            color: var(--gold);
+            font-size: 0.85rem;
+            transition: transform 0.3s;
+            flex-shrink: 0;
+        }
+        .faq-q.open i {
+            transform: rotate(45deg);
+        }
+        .faq-a {
+            display: none;
+            padding: 0 22px 18px;
+            font-size: 0.88rem;
+            color: var(--muted);
+            line-height: 1.7;
+        }
+        .faq-a.open {
+            display: block;
+        }
 
-    /* ===== CONTACT ===== */
-    .contact-wrap {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--r-lg);
-      padding: clamp(24px, 4vw, 48px);
-    }
-    @media (max-width: 680px) {
-      .contact-wrap { grid-template-columns: 1fr; }
-    }
-    .contact-info h2 { font-family: var(--font-display); font-size: clamp(1.5rem, 3.5vw, 2.2rem); color: var(--gold); margin-bottom: 24px; }
-    .contact-row {
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 18px;
-    }
-    .contact-row-icon {
-      width: 36px; height: 36px; flex-shrink: 0;
-      background: var(--gold-dim);
-      border-radius: 10px;
-      display: grid; place-items: center;
-      color: var(--gold);
-      font-size: 0.9rem;
-      margin-top: 2px;
-    }
-    .contact-row-text p:first-child { font-weight: 600; font-size: 0.82rem; color: var(--gold-light); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 2px; }
-    .contact-row-text p:last-child { font-size: 0.9rem; color: var(--text); }
-    .contact-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 28px; }
-    .map-wrap {
-      border-radius: var(--r-md);
-      overflow: hidden;
-      border: 1px solid var(--border);
-      min-height: 280px;
-    }
-    .map-wrap iframe { width: 100%; height: 100%; min-height: 280px; display: block; border: 0; }
+        /* ===== CONTACT ===== */
+        .contact-wrap {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--r-lg);
+            padding: clamp(24px, 4vw, 48px);
+        }
+        @media (max-width: 680px) {
+            .contact-wrap {
+                grid-template-columns: 1fr;
+            }
+        }
+        .contact-info h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.5rem, 3.5vw, 2.2rem);
+            color: var(--gold);
+            margin-bottom: 24px;
+        }
+        .contact-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+        .contact-row-icon {
+            width: 36px;
+            height: 36px;
+            flex-shrink: 0;
+            background: var(--gold-dim);
+            border-radius: 10px;
+            display: grid;
+            place-items: center;
+            color: var(--gold);
+            font-size: 0.9rem;
+            margin-top: 2px;
+        }
+        .contact-row-text p:first-child {
+            font-weight: 600;
+            font-size: 0.82rem;
+            color: var(--gold-light);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 2px;
+        }
+        .contact-row-text p:last-child {
+            font-size: 0.9rem;
+            color: var(--text);
+        }
+        .contact-btns {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 28px;
+        }
+        .map-wrap {
+            border-radius: var(--r-md);
+            overflow: hidden;
+            border: 1px solid var(--border);
+            min-height: 280px;
+        }
+        .map-wrap iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 280px;
+            display: block;
+            border: 0;
+        }
 
-    /* ===== CTA BANNER ===== */
-    .cta-banner {
-      background: linear-gradient(135deg, rgba(201,168,76,0.12) 0%, rgba(201,168,76,0.04) 100%);
-      border: 1px solid var(--border);
-      border-radius: var(--r-lg);
-      padding: clamp(36px, 6vw, 64px) clamp(24px, 5vw, 60px);
-      text-align: center;
-    }
-    .cta-banner h2 { font-family: var(--font-display); font-size: clamp(1.6rem, 4vw, 2.6rem); color: var(--white); margin-bottom: 14px; }
-    .cta-banner p { color: var(--muted); font-size: 1rem; margin-bottom: 32px; }
-    .cta-actions { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
+        /* ===== CTA BANNER ===== */
+        .cta-banner {
+            background: linear-gradient(135deg, rgba(201, 168, 76, 0.12) 0%, rgba(201, 168, 76, 0.04) 100%);
+            border: 1px solid var(--border);
+            border-radius: var(--r-lg);
+            padding: clamp(36px, 6vw, 64px) clamp(24px, 5vw, 60px);
+            text-align: center;
+        }
+        .cta-banner h2 {
+            font-family: var(--font-display);
+            font-size: clamp(1.6rem, 4vw, 2.6rem);
+            color: var(--white);
+            margin-bottom: 14px;
+        }
+        .cta-banner p {
+            color: var(--muted);
+            font-size: 1rem;
+            margin-bottom: 32px;
+        }
+        .cta-actions {
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
 
-    /* ===== FOOTER ===== */
-    .footer {
-      background: #030305;
-      border-top: 1px solid var(--border);
-      padding: clamp(40px, 6vw, 64px) 0 24px;
-      text-align: center;
-    }
-    .footer-logo { margin-bottom: 24px; }
-    .footer-logo h3 { font-family: var(--font-display); font-size: 1.5rem; color: var(--gold); }
-    .footer-logo p { font-size: 0.78rem; color: var(--muted); margin-top: 4px; }
-    .social-links { display: flex; justify-content: center; gap: 12px; margin-bottom: 28px; }
-    .social-links a {
-      width: 40px; height: 40px;
-      display: grid; place-items: center;
-      border: 1px solid var(--border);
-      border-radius: 50%;
-      color: #7a7870;
-      font-size: 1rem;
-      transition: all 0.2s;
-      text-decoration: none;
-    }
-    .social-links a:hover { background: var(--gold); border-color: var(--gold); color: #070709; }
-    .footer-links { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 24px; }
-    .footer-links a { text-decoration: none; font-size: 0.82rem; color: var(--muted); transition: color 0.2s; }
-    .footer-links a:hover { color: var(--gold); }
-    .footer-bottom { font-size: 0.78rem; color: var(--muted); border-top: 1px solid var(--border); padding-top: 20px; margin-top: 8px; }
+        /* ===== FOOTER ===== */
+        .footer {
+            background: #030305;
+            border-top: 1px solid var(--border);
+            padding: clamp(40px, 6vw, 64px) 0 24px;
+            text-align: center;
+        }
+        .footer-logo {
+            margin-bottom: 24px;
+        }
+        .footer-logo h3 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--gold);
+        }
+        .footer-logo p {
+            font-size: 0.78rem;
+            color: var(--muted);
+            margin-top: 4px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            display: grid;
+            place-items: center;
+            border: 1px solid var(--border);
+            border-radius: 50%;
+            color: #7a7870;
+            font-size: 1rem;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            background: var(--gold);
+            border-color: var(--gold);
+            color: #070709;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+        }
+        .footer-links a {
+            text-decoration: none;
+            font-size: 0.82rem;
+            color: var(--muted);
+            transition: color 0.2s;
+        }
+        .footer-links a:hover {
+            color: var(--gold);
+        }
+        .footer-bottom {
+            font-size: 0.78rem;
+            color: var(--muted);
+            border-top: 1px solid var(--border);
+            padding-top: 20px;
+            margin-top: 8px;
+        }
 
-    /* ===== FLOAT WA ===== */
-    .float-wa {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 54px; height: 54px;
-      background: #25D366;
-      border-radius: 50%;
-      display: grid; place-items: center;
-      font-size: 1.5rem;
-      color: white;
-      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
-      z-index: 90;
-      transition: transform 0.2s, background 0.2s;
-      text-decoration: none;
-    }
-    .float-wa:hover { transform: scale(1.1); background: #20b859; }
+        /* ===== FLOAT WA ===== */
+        .float-wa {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 54px;
+            height: 54px;
+            background: #25D366;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            font-size: 1.5rem;
+            color: white;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 90;
+            transition: transform 0.2s, background 0.2s;
+            text-decoration: none;
+        }
+        .float-wa:hover {
+            transform: scale(1.1);
+            background: #20b859;
+        }
 
-    /* ===== ANIMATIONS ===== */
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(24px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
+        /* ===== SERVICE POPUP ===== */
+        .popup {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            padding: 20px;
+        }
+        .popup.active {
+            display: flex;
+        }
+        .popup-content {
+            background: #111118;
+            border: 1px solid var(--gold);
+            padding: 30px 28px;
+            border-radius: 16px;
+            max-width: 500px;
+            width: 100%;
+            color: white;
+            text-align: left;
+            position: relative;
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+        .popup-content h2 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 10px;
+            padding-right: 30px;
+        }
+        .popup-content>p {
+            font-size: 0.9rem;
+            color: #bcb8ae;
+            margin-bottom: 18px;
+            line-height: 1.6;
+        }
+        .popup-content ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 22px;
+        }
+        .popup-content ul li {
+            font-size: 0.88rem;
+            color: #d0ccc4;
+            padding: 6px 0;
+            border-bottom: 1px solid rgba(201, 168, 76, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .popup-content .btn-gold {
+            display: inline-flex;
+            width: auto;
+            justify-content: center;
+            font-size: 0.9rem;
+            padding: 12px 24px;
+            margin-top: 4px;
+        }
+        .close-popup {
+            position: absolute;
+            right: 16px;
+            top: 14px;
+            cursor: pointer;
+            font-size: 26px;
+            color: var(--gold);
+            background: none;
+            border: none;
+            line-height: 1;
+            z-index: 10;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background 0.2s;
+        }
+        .close-popup:hover {
+            background: var(--gold-dim);
+        }
 
-    .divider {
-      width: 48px; height: 2px;
-      background: var(--gold);
-      margin: 12px auto 0;
-      border-radius: 2px;
-    }
+        /* ===== ANIMATIONS ===== */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-    img { max-width: 100%; height: auto; }
-  </style>
+        .divider {
+            width: 48px;
+            height: 2px;
+            background: var(--gold);
+            margin: 12px auto 0;
+            border-radius: 2px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
 
-<!-- NAV OVERLAY (mobile) -->
-<div class="nav-overlay" id="navOverlay"></div>
+    <!-- NAV OVERLAY (mobile) -->
+    <div class="nav-overlay" id="navOverlay"></div>
 
-<!-- ===== HEADER ===== -->
-<header class="site-header">
-  <div class="header-inner">
-    <a href="#home" class="logo">
-      <img src="./logo.png" alt="Vedanta Dental Clinic Logo" class="logo-img">
-      <div class="logo-text">
-        <h1>Vedanta Dental Clinic</h1>
-        <p>Faridabad's Trusted Care</p>
-      </div>
-    </a>
-
-    <button class="hamburger" id="hamburger" aria-label="Open menu">
-      <i class="fas fa-bars"></i>
-    </button>
-
-    <nav class="nav-links" id="navMenu">
-      <button class="close-nav" id="closeNav" aria-label="Close menu"><i class="fas fa-times"></i></button>
-      <a href="#home">Home</a>
-      <a href="#services">Services</a>
-      <a href="#team">Team</a>
-      <a href="#testimonials">Reviews</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact">Contact</a>
-      <a href="tel:+919958037979" class="nav-cta">📞 Book Now</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-  <!-- ===== HERO ===== -->
-  <section id="home" class="hero">
-    <div class="hero-content">
-      <div class="hero-badge"><i class="fas fa-map-marker-alt"></i> Jawahar Colony, Faridabad</div>
-      <h1>The Best <span>Dental Clinic</span></h1>
-      <p class="hero-desc">Vedanta Dental Clinic offers painless root canals, tooth extraction, dental implants, braces / aligners & complete cosmetic dentistry with 16+ years of trusted expertise.</p>
-      <div class="hero-stats">
-        <div class="stat-pill"><i class="fas fa-smile"></i> 1000+ Happy Patients</div>
-        <div class="stat-pill"><i class="fas fa-star"></i> 4.7 Rating</div>
-        <div class="stat-pill"><i class="fas fa-calendar-alt"></i> 16+ Years Experience</div>
-        <div class="stat-pill"><i class="fas fa-shield-alt"></i> Painless Treatment</div>
-      </div>
-      <div class="hero-actions">
-        <a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone-alt"></i> Book Appointment</a>
-        <a href="#" id="heroWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
-      </div>
-      <div class="hero-usp-box highlight-blink" style="color: greenyellow;">
-        ✨ First Dental Clinic Using Needle-Free Technique <br>
-        🦷 Digital Dentistry (Oral Scan) in NIT Faridabad
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== WHY US ===== -->
-  <section class="section section-alt" id="why-us">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">Why Choose Us</span>
-        <h2 class="section-title">Patients Trust Vedanta Dental</h2>
-        <div class="divider"></div>
-        <p class="section-sub" style="margin-top:14px;">We focus on simple, safe, and effective dental care using modern techniques for comfortable, long-lasting results.</p>
-      </div>
-      <div class="why-grid">
-        <div class="why-card"><div class="why-icon"><i class="fas fa-user-md"></i></div><h4>Experienced Dentists</h4><p>Years of practice & excellence</p></div>
-        <div class="why-card"><div class="why-icon"><i class="fas fa-teeth-open"></i></div><h4>All Treatments Under One Roof</h4><p>Complete dental care</p></div>
-        <div class="why-card"><div class="why-icon"><i class="fas fa-rupee-sign"></i></div><h4>Affordable & Transparent</h4><p>Quality at fair rates</p></div>
-        <div class="why-card"><div class="why-icon"><i class="fas fa-microscope"></i></div><h4>Modern Equipment</h4><p>Painless procedures</p></div>
-        <div class="why-card"><div class="why-icon"><i class="fas fa-location-dot"></i></div><h4>Convenient Location</h4><p>Near major Faridabad colonies</p></div>
-      </div>
-      <div style="text-align:center;margin-top:44px;">
-        <a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone-alt"></i> Book Your Appointment</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== TEAM ===== -->
-  <section id="team" class="section">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">Our Experts</span>
-        <h2 class="section-title">Meet Your Dental Specialists</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="team-grid">
-        <div class="doctor-card">
-          <div class="doctor-img">
-            <img src="./drruby.jpg" alt="Dr. Rube Aggarwal" >
-          </div>
-          <div class="doctor-info">
-            <h3>Dr. Rube Aggarwal</h3>
-            <div class="doctor-spec">Dental Surgeon & Cosmetic Dentist | 14+ Years Experience</div>
-            <p>Dr. Rube Aggarwal has been practicing since 2012 and is known for advanced cosmetic dentistry, smile designing, and painless treatments. She has worked with reputed institutions such as Apollo Hospitals and Military Hospital Meerut.</p>
-           <ul class="expertise-list">
-              <li><i class="fas fa-check-circle"></i> RCT (Root Canal Treatment) – Single Visit</li>
-              <li><i class="fas fa-check-circle"></i> Painless Tooth Extraction</li>
-              <li><i class="fas fa-check-circle"></i> Special Care for Kids Dental Treatment</li>
-              <li><i class="fas fa-check-circle"></i> Denture Fabrication</li>
-              <li><i class="fas fa-check-circle"></i> Teeth Whitening</li>
-              <li><i class="fas fa-check-circle"></i> FMR (Full Mouth Rehabilitation)</li>
-              <li><i class="fas fa-check-circle"></i> Gum Surgery</li>
-            </ul>
-          </div>
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="#home" class="logo">
+                <img src="./logo.png" alt="Vedanta Dental Clinic Logo" class="logo-img">
+                <div class="logo-text">
+                    <h1>Vedanta Dental Clinic</h1>
+                    <p>Faridabad's Trusted Care</p>
+                </div>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links" id="navMenu">
+                <button class="close-nav" id="closeNav" aria-label="Close menu"><i class="fas fa-times"></i></button>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#team">Team</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+                <a href="tel:+919958037979" class="nav-cta">📞 Book Now</a>
+            </nav>
         </div>
-        <div class="doctor-card">
-          <div class="doctor-img">
-            <img src="./drsashikant.jpeg" alt="Dr. Shashikant Kumar" >
-          </div>
-          <div class="doctor-info">
-            <h3>Dr. Shashikant </h3>
-            <div class="doctor-spec">Oral Medicine & Maxillofacial Radiologist | MDS | 16+ Years Experience</div>
-            <p>Dr. Shashikant Kumar has been practicing since 2010 and is a highly experienced Oral & Maxillofacial surgeon. He specializes in oral surgery, dental implants, orthodontic treatments, and advanced dental care.</p>
-            <ul class="expertise-list">
-              <li><i class="fas fa-check-circle"></i> Single-Visit Dental Implants</li>
-              <li><i class="fas fa-check-circle"></i> Wire-less (Aligner) Treatment</li>
-              <li><i class="fas fa-check-circle"></i> Tooth-Colored Braces</li>
-              <li><i class="fas fa-check-circle"></i> Wisdom Tooth Surgery</li>
-              <li><i class="fas fa-check-circle"></i> Maxillofacial Trauma Management</li>
-            </ul>
-            <p style="margin-top: 10px;">Known for precision and advanced techniques, he ensures safe, effective, and long-lasting dental treatments.</p>
-          </div>
+    </header>
+
+    <main>
+        <!-- ===== HERO ===== -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-badge"><i class="fas fa-map-marker-alt"></i> Jawahar Colony, Faridabad</div>
+                <h1>The Best <span>Dental Clinic</span></h1>
+                <p class="hero-desc">Vedanta Dental Clinic offers painless root canals, tooth extraction, dental implants, braces / aligners & complete cosmetic dentistry with 16+ years of trusted expertise.</p>
+                <div class="hero-stats">
+                    <div class="stat-pill"><i class="fas fa-smile"></i> 1000+ Happy Patients</div>
+                    <div class="stat-pill"><i class="fas fa-star"></i> 4.7 Rating</div>
+                    <div class="stat-pill"><i class="fas fa-calendar-alt"></i> 16+ Years Experience</div>
+                    <div class="stat-pill"><i class="fas fa-shield-alt"></i> Painless Treatment</div>
+                </div>
+                <div class="hero-actions">
+                    <a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone-alt"></i> Book Appointment</a>
+                    <a href="#" id="heroWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+                </div>
+                <div class="hero-usp-box highlight-blink" style="color: greenyellow;">
+                    ✨ First Dental Clinic Using Needle-Free Technique <br>
+                    🦷 Digital Dentistry (Oral Scan) in NIT Faridabad
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== WHY US ===== -->
+        <section class="section section-alt" id="why-us">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">Why Choose Us</span>
+                    <h2 class="section-title">Patients Trust Vedanta Dental</h2>
+                    <div class="divider"></div>
+                    <p class="section-sub" style="margin-top:14px;">We focus on simple, safe, and effective dental care using modern techniques for comfortable, long-lasting results.</p>
+                </div>
+                <div class="why-grid">
+                    <div class="why-card"><div class="why-icon"><i class="fas fa-user-md"></i></div><h4>Experienced Dentists</h4><p>Years of practice & excellence</p></div>
+                    <div class="why-card"><div class="why-icon"><i class="fas fa-teeth-open"></i></div><h4>All Treatments Under One Roof</h4><p>Complete dental care</p></div>
+                    <div class="why-card"><div class="why-icon"><i class="fas fa-rupee-sign"></i></div><h4>Affordable & Transparent</h4><p>Quality at fair rates</p></div>
+                    <div class="why-card"><div class="why-icon"><i class="fas fa-microscope"></i></div><h4>Modern Equipment</h4><p>Painless procedures</p></div>
+                    <div class="why-card"><div class="why-icon"><i class="fas fa-location-dot"></i></div><h4>Convenient Location</h4><p>Near major Faridabad colonies</p></div>
+                </div>
+                <div style="text-align:center;margin-top:44px;">
+                    <a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone-alt"></i> Book Your Appointment</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TEAM ===== -->
+        <section id="team" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">Our Experts</span>
+                    <h2 class="section-title">Meet Your Dental Specialists</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="team-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="./drruby.jpg" alt="Dr. Rube Aggarwal">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Rube Aggarwal</h3>
+                            <div class="doctor-spec">Dental Surgeon & Cosmetic Dentist | 14+ Years Experience</div>
+                            <p>Dr. Rube Aggarwal has been practicing since 2012 and is known for advanced cosmetic dentistry, smile designing, and painless treatments. She has worked with reputed institutions such as Apollo Hospitals and Military Hospital Meerut.</p>
+                            <ul class="expertise-list">
+                                <li><i class="fas fa-check-circle"></i> RCT (Root Canal Treatment) – Single Visit</li>
+                                <li><i class="fas fa-check-circle"></i> Painless Tooth Extraction</li>
+                                <li><i class="fas fa-check-circle"></i> Special Care for Kids Dental Treatment</li>
+                                <li><i class="fas fa-check-circle"></i> Denture Fabrication</li>
+                                <li><i class="fas fa-check-circle"></i> Teeth Whitening</li>
+                                <li><i class="fas fa-check-circle"></i> FMR (Full Mouth Rehabilitation)</li>
+                                <li><i class="fas fa-check-circle"></i> Gum Surgery</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="doctor-card">
+                        <div class="doctor-img">
+                            <img src="./drsashikant.jpeg" alt="Dr. Shashikant Kumar">
+                        </div>
+                        <div class="doctor-info">
+                            <h3>Dr. Shashikant </h3>
+                            <div class="doctor-spec">Oral Medicine & Maxillofacial Radiologist | MDS | 16+ Years Experience</div>
+                            <p>Dr. Shashikant Kumar has been practicing since 2010 and is a highly experienced Oral & Maxillofacial surgeon. He specializes in oral surgery, dental implants, orthodontic treatments, and advanced dental care.</p>
+                            <ul class="expertise-list">
+                                <li><i class="fas fa-check-circle"></i> Single-Visit Dental Implants</li>
+                                <li><i class="fas fa-check-circle"></i> Wire-less (Aligner) Treatment</li>
+                                <li><i class="fas fa-check-circle"></i> Tooth-Colored Braces</li>
+                                <li><i class="fas fa-check-circle"></i> Wisdom Tooth Surgery</li>
+                                <li><i class="fas fa-check-circle"></i> Maxillofacial Trauma Management</li>
+                            </ul>
+                            <p style="margin-top: 10px;">Known for precision and advanced techniques, he ensures safe, effective, and long-lasting dental treatments.</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 44px;">
+                    <div class="clinic-timing-badge">
+                        <i class="far fa-clock"></i> ⏰ Clinic Timings: 10:00 AM – 2:00 PM &nbsp;|&nbsp; 6:00 PM – 9:00 PM
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES ===== -->
+        <section id="services" class="section section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">Our Services</span>
+                    <h2 class="section-title">All Dental Treatments in Faridabad</h2>
+                    <div class="divider"></div>
+                    <p class="section-sub">Complete dental care for patients from across Faridabad and nearby areas. Click any service to learn more.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-service="rct"><div class="service-icon"><i class="fas fa-tooth"></i></div><h4>Root Canal Treatment</h4><p>Painless RCT</p></div>
+                    <div class="service-card" data-service="implant"><div class="service-icon"><i class="fas fa-teeth"></i></div><h4>Dental Implants</h4><p>Permanent replacement</p></div>
+                    <div class="service-card" data-service="braces"><div class="service-icon"><i class="fas fa-smile"></i></div><h4>Braces & Aligners</h4><p>Teeth straightening</p></div>
+                    <div class="service-card" data-service="cleaning"><div class="service-icon"><i class="fas fa-broom"></i></div><h4>Teeth Cleaning</h4><p>Scaling & polishing</p></div>
+                    <div class="service-card" data-service="whitening"><div class="service-icon"><i class="fas fa-star"></i></div><h4>Teeth Whitening</h4><p>Brighter smile</p></div>
+                    <div class="service-card" data-service="extraction"><div class="service-icon"><i class="fas fa-tools"></i></div><h4>Tooth Extraction</h4><p>Safe & gentle</p></div>
+                    <div class="service-card" data-service="wisdom"><div class="service-icon"><i class="fas fa-brain"></i></div><h4>Wisdom Tooth Removal</h4><p>Expert care</p></div>
+                    <div class="service-card" data-service="dentures"><div class="service-icon"><i class="fas fa-user-injured"></i></div><h4>Dentures</h4><p>Artificial teeth</p></div>
+                    <div class="service-card" data-service="smile"><div class="service-icon"><i class="fas fa-laugh-beam"></i></div><h4>Smile Makeover</h4><p>Complete transformation</p></div>
+                    <div class="service-card" data-service="kids"><div class="service-icon"><i class="fas fa-child"></i></div><h4>Kids Dentistry</h4><p>Gentle pediatric care</p></div>
+                    <div class="service-card" data-service="gum"><div class="service-icon"><i class="fas fa-hand-holding-heart"></i></div><h4>Gum Treatment</h4><p>Healthy gums</p></div>
+                    <div class="service-card" data-service="laser"><div class="service-icon"><i class="fas fa-circle-nodes"></i></div><h4>Laser Dental Treatment</h4><p>Advanced precision</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROBLEMS ===== -->
+        <section class="section" id="problems">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">We Treat</span>
+                    <h2 class="section-title">Dental Problems We Solve</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="problems-grid">
+                    <div class="problem-card"><h4>🦷 Tooth Pain Treatment</h4><p>Painless root canal treatment</p></div>
+                    <div class="problem-card"><h4>😶 Missing Teeth Solution</h4><p>Dental implants & dentures</p></div>
+                    <div class="problem-card"><h4>✨ Yellow Teeth Whitening</h4><p>Professional whitening</p></div>
+                    <div class="problem-card"><h4>📐 Teeth Alignment Issues</h4><p>Braces & clear aligners</p></div>
+                    <div class="problem-card"><h4>🩸 Bleeding Gums</h4><p>Gum treatment & scaling</p></div>
+                    <div class="problem-card"><h4>😣 Wisdom Tooth Pain</h4><p>Safe wisdom tooth removal</p></div>
+                    <div class="problem-card"><h4>🦷 Fixed Denture Implants</h4><p>Permanent teeth replacement</p></div>
+                    <div class="problem-card"><h4>🩺 Maxillofacial Trauma</h4><p>Advanced facial injury management</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== GALLERY ===== -->
+        <section class="section section-alt" id="gallery">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">Transformations</span>
+                    <h2 class="section-title">Real Patient Smile Results</h2>
+                    <div class="divider"></div>
+                    <p class="section-sub">See how our treatments have transformed smiles across Faridabad.</p>
+                </div>
+                <div class="gallery-grid">
+                    <div class="gallery-card"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80" alt="Before"><div class="gallery-label">Before — Dental Restoration</div></div>
+                    <div class="gallery-card"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" alt="After"><div class="gallery-label">After — Natural Beautiful Smile</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TESTIMONIALS ===== -->
+        <section id="testimonials" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">Patient Reviews</span>
+                    <h2 class="section-title">What Our Patients Say</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card"><div class="stars">★★★★★</div><p>"Very polite staff and truly painless treatment. I searched for the best dentist near me and found Vedanta Dental — couldn't be happier!"</p><div class="testimonial-author">Rahul K.</div><div class="testimonial-score">⭐ 5.0 — Google Review</div></div>
+                    <div class="testimonial-card"><div class="stars">★★★★★</div><p>"Highly recommend for root canal in Faridabad. The doctors were extremely careful and the whole experience was excellent. Zero pain!"</p><div class="testimonial-author">Neha S.</div><div class="testimonial-score">⭐ 4.9 — Google Review</div></div>
+                    <div class="testimonial-card"><div class="stars">★★★★★</div><p>"Affordable dental clinic with great quality treatment. Very satisfied with my implant procedure. Will definitely come back."</p><div class="testimonial-author">Amit V.</div><div class="testimonial-score">⭐ 5.0 — Google Review</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA BANNER ===== -->
+        <section class="section section-alt" id="cta">
+            <div class="container">
+                <div class="cta-banner">
+                    <h2>Ready for a Healthier, Beautiful Smile?</h2>
+                    <p>Book your appointment today. Mon–Sat: 10 AM – 2 PM & 6 PM – 9 PM. Sunday: Emergency only.</p>
+                    <div class="cta-actions">
+                        <a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone-alt"></i> Call Now</a>
+                        <a href="#" id="ctaWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FAQ ===== -->
+        <section id="faq" class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">FAQ</span>
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="faq-list">
+                    <div class="faq-item"><button class="faq-q">Do you provide all dental treatments? <i class="fas fa-plus"></i></button><div class="faq-a">Yes, we offer implants, root canal treatment, braces, teeth cleaning, whitening, kids dentistry, and all dental care under one roof.</div></div>
+                    <div class="faq-item"><button class="faq-q">Is root canal treatment painful? <i class="fas fa-plus"></i></button><div class="faq-a">No. We use modern techniques and anaesthesia to ensure a completely painless root canal experience.</div></div>
+                    <div class="faq-item"><button class="faq-q">How much do dental implants cost? <i class="fas fa-plus"></i></button><div class="faq-a">Cost varies by case. We offer transparent, affordable pricing. Call or WhatsApp for a free estimate.</div></div>
+                    <div class="faq-item"><button class="faq-q">What are your clinic hours? <i class="fas fa-plus"></i></button><div class="faq-a">Mon–Sat: 10:00 AM – 2:00 PM & 6:00 PM – 9:00 PM. Sunday: Emergency only.</div></div>
+                    <div class="faq-item"><button class="faq-q">Do you treat children? <i class="fas fa-plus"></i></button><div class="faq-a">Yes! We have a dedicated gentle pediatric dentistry service.</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <div class="section-head">
+                    <span class="section-label">Find Us</span>
+                    <h2 class="section-title">Contact Vedanta Dental Clinic</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-wrap">
+                    <div class="contact-info">
+                        <h2>Let's Talk Dental</h2>
+                        <div class="contact-row"><div class="contact-row-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-row-text"><p>Address</p><p>H.No 35, Gurdwara Road, Opposite Kumar Optics, Jawahar Colony, Faridabad, Haryana 121005</p></div></div>
+                        <div class="contact-row"><div class="contact-row-icon"><i class="fas fa-phone-alt"></i></div><div class="contact-row-text"><p>Phone</p><p>+91 9958037979</p></div></div>
+                        <div class="contact-row"><div class="contact-row-icon"><i class="far fa-clock"></i></div><div class="contact-row-text"><p>Hours</p><p>Mon–Sat: 10:00 AM – 2:00 PM & 6:00 PM – 9:00 PM<br>Sunday: Emergency Only</p></div></div>
+                        <div class="contact-btns"><a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone"></i> Call Now</a><a href="#" id="contactWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
+                    </div>
+                    <div class="map-wrap">
+  <iframe 
+    src="https://maps.google.com/maps?q=28.371055519275384,77.28820011430106&z=14&output=embed" 
+    allowfullscreen 
+    loading="lazy" 
+    title="Clinic map">
+  </iframe>
+</div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo"><h3>Vedanta Dental Clinic</h3><p>Best Dentist in Faridabad | Trusted & Painless Care</p></div>
+            <div class="social-links"><a href="https://www.instagram.com/vedantadentalofficial?igsh=ZmZnZm92ZTAwMjk4" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="https://www.facebook.com/share/18er1LwN66/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="https://youtube.com/@vedantadental?si=6hUHP8GtyYXN8Lbp" aria-label="YouTube"><i class="fab fa-youtube"></i></a></div>
+            <div class="footer-links"><a href="#home">Home</a><a href="#services">Services</a><a href="#team">Team</a><a href="#testimonials">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
+            <div class="footer-bottom"><p>© 2025 Vedanta Dental Clinic | H.No 35, Gurudwara Road, Jawahar Colony, Faridabad, Haryana 121005</p><p style="margin-top:6px;">📞 +91 9958037979 &nbsp;|&nbsp; 🦷 Painless Dentistry · Advanced Implants · Trusted Care</p></div>
         </div>
-      </div>
-      <div style="text-align: center; margin-top: 44px;">
-        <div class="clinic-timing-badge">
-          <i class="far fa-clock"></i> ⏰ Clinic Timings: 10:00 AM – 2:00 PM &nbsp;|&nbsp; 6:00 PM – 9:00 PM
+    </footer>
+
+    <a href="#" id="floatWa" class="float-wa"><i class="fab fa-whatsapp"></i></a>
+
+    <!-- Hidden SEO -->
+    <div style="display:none;"><h2>Dentist in Jawahar Colony Faridabad</h2><p>Best dental clinic near Dabua Faridabad providing root canal treatment, dental implants, braces, teeth cleaning and painless dentistry.</p></div>
+
+    <!-- Added Hidden SEO Boost for keyword targeting -->
+    <div style="display:none">
+        Best Dentist in Faridabad near Jawahar Colony, Dabua, NIT.
+        Dr Rube Aggarwal also known as Dr Ruby Dentist Faridabad.
+        Dr Shashikant Kumar dental implant specialist.
+        Vedanta Dental Clinic provides root canal, implants, braces, aligners, whitening.
+    </div>
+
+    <!-- SERVICE POPUP -->
+    <div id="servicePopup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h2 id="popupTitle"></h2>
+            <p id="popupDesc"></p>
+            <ul id="popupPoints"></ul>
+            <a href="tel:+919958037979" class="btn-gold">📞 Book Appointment</a>
         </div>
-      </div>
     </div>
-  </section>
 
-  <!-- ===== SERVICES ===== -->
-  <section id="services" class="section section-alt">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">Our Services</span>
-        <h2 class="section-title">All Dental Treatments in Faridabad</h2>
-        <div class="divider"></div>
-        <p class="section-sub">Complete dental care for patients from across Faridabad and nearby areas.</p>
-      </div>
-      <div class="services-grid">
-        <a href="https://en.wikipedia.org/wiki/Root_canal" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-tooth"></i></div><h4>Root Canal Treatment</h4><p>Painless RCT</p></a>
-        <a href="https://en.wikipedia.org/wiki/Dental_implant" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-teeth"></i></div><h4>Dental Implants</h4><p>Permanent replacement</p></a>
-        <a href="https://en.wikipedia.org/wiki/Dental_braces" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-smile"></i></div><h4>Braces & Aligners</h4><p>Teeth straightening</p></a>
-        <a href="https://en.wikipedia.org/wiki/Teeth_cleaning" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-broom"></i></div><h4>Teeth Cleaning</h4><p>Scaling & polishing</p></a>
-        <a href="https://en.wikipedia.org/wiki/Tooth_whitening" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-star"></i></div><h4>Teeth Whitening</h4><p>Brighter smile</p></a>
-        <a href="https://en.wikipedia.org/wiki/Tooth_extraction" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-tools"></i></div><h4>Tooth Extraction</h4><p>Safe & gentle</p></a>
-        <a href="https://en.wikipedia.org/wiki/Wisdom_tooth" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-brain"></i></div><h4>Wisdom Tooth Removal</h4><p>Expert care</p></a>
-        <a href="https://en.wikipedia.org/wiki/Dentures" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-user-injured"></i></div><h4>Dentures</h4><p>Artificial teeth</p></a>
-        <a href="https://en.wikipedia.org/wiki/Cosmetic_dentistry" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-laugh-beam"></i></div><h4>Smile Makeover</h4><p>Complete transformation</p></a>
-        <a href="https://en.wikipedia.org/wiki/Pediatric_dentistry" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-child"></i></div><h4>Kids Dentistry</h4><p>Gentle pediatric care</p></a>
-        <a href="https://en.wikipedia.org/wiki/Periodontology" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-hand-holding-heart"></i></div><h4>Gum Treatment</h4><p>Healthy gums</p></a>
-        <a href="https://en.wikipedia.org/wiki/Laser_dentistry" target="_blank" class="service-card"><div class="service-icon"><i class="fas fa-circle-nodes"></i></div><h4>Laser Dental Treatment</h4><p>Advanced precision</p></a>
-      </div>
-    </div>
-  </section>
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Dentist",
+            "name": "Vedanta Dental Clinic",
+            "image": "https://www.vedantadental.com/logo.png",
+            "telephone": "+919958037979",
+            "address": { "@type": "PostalAddress", "streetAddress": "H.No 35, Gurdwar Road, Opposite Kumar Optics, Jawahar Colony",
+                "addressLocality": "Faridabad", "addressRegion": "Haryana", "postalCode": "121005" },
+            "openingHours": "Mo-Sa 10:00-14:00,18:00-21:00",
+            "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "1000" }
+        }
+    </script>
 
-  <!-- ===== PROBLEMS ===== -->
-  <section class="section" id="problems">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">We Treat</span>
-        <h2 class="section-title">Dental Problems We Solve</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="problems-grid">
-        <div class="problem-card"><h4>🦷 Tooth Pain Treatment</h4><p>Painless root canal treatment</p></div>
-        <div class="problem-card"><h4>😶 Missing Teeth Solution</h4><p>Dental implants & dentures</p></div>
-        <div class="problem-card"><h4>✨ Yellow Teeth Whitening</h4><p>Professional whitening</p></div>
-        <div class="problem-card"><h4>📐 Teeth Alignment Issues</h4><p>Braces & clear aligners</p></div>
-        <div class="problem-card"><h4>🩸 Bleeding Gums</h4><p>Gum treatment & scaling</p></div>
-        <div class="problem-card"><h4>😣 Wisdom Tooth Pain</h4><p>Safe wisdom tooth removal</p></div>
-        <div class="problem-card"><h4>🦷 Fixed Denture Implants</h4><p>Permanent teeth replacement</p></div>
-        <div class="problem-card"><h4>🩺 Maxillofacial Trauma</h4><p>Advanced facial injury management</p></div>
-      </div>
-    </div>
-  </section>
+    <script>
+        const WA_PHONE = "919958037979";
+        const WA_MSG = encodeURIComponent("Hello Vedanta Dental Clinic, I'd like to book an appointment.");
+        const WA_URL = `https://wa.me/${WA_PHONE}?text=${WA_MSG}`;
 
-  <!-- ===== GALLERY ===== -->
-  <section class="section section-alt" id="gallery">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">Transformations</span>
-        <h2 class="section-title">Real Patient Smile Results</h2>
-        <div class="divider"></div>
-        <p class="section-sub">See how our treatments have transformed smiles across Faridabad.</p>
-      </div>
-      <div class="gallery-grid">
-        <div class="gallery-card"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&w=800&q=80" alt="Before"><div class="gallery-label">Before — Dental Restoration</div></div>
-        <div class="gallery-card"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?auto=format&fit=crop&w=800&q=80" alt="After"><div class="gallery-label">After — Natural Beautiful Smile</div></div>
-      </div>
-    </div>
-  </section>
+        function openWA(e) { e.preventDefault();
+            window.open(WA_URL, "_blank"); }
+        document.getElementById("heroWaBtn").addEventListener("click", openWA);
+        document.getElementById("ctaWaBtn").addEventListener("click", openWA);
+        document.getElementById("contactWaBtn").addEventListener("click", openWA);
+        document.getElementById("floatWa").addEventListener("click", openWA);
 
-  <!-- ===== TESTIMONIALS ===== -->
-  <section id="testimonials" class="section">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">Patient Reviews</span>
-        <h2 class="section-title">What Our Patients Say</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="testimonial-grid">
-        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"Very polite staff and truly painless treatment. I searched for the best dentist near me and found Vedanta Dental — couldn't be happier!"</p><div class="testimonial-author">Rahul K.</div><div class="testimonial-score">⭐ 5.0 — Google Review</div></div>
-        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"Highly recommend for root canal in Faridabad. The doctors were extremely careful and the whole experience was excellent. Zero pain!"</p><div class="testimonial-author">Neha S.</div><div class="testimonial-score">⭐ 4.9 — Google Review</div></div>
-        <div class="testimonial-card"><div class="stars">★★★★★</div><p>"Affordable dental clinic with great quality treatment. Very satisfied with my implant procedure. Will definitely come back."</p><div class="testimonial-author">Amit V.</div><div class="testimonial-score">⭐ 5.0 — Google Review</div></div>
-      </div>
-    </div>
-  </section>
+        const hamburger = document.getElementById("hamburger");
+        const navMenu = document.getElementById("navMenu");
+        const overlay = document.getElementById("navOverlay");
+        const closeBtn = document.getElementById("closeNav");
 
-  <!-- ===== CTA BANNER ===== -->
-  <section class="section section-alt" id="cta">
-    <div class="container">
-      <div class="cta-banner">
-        <h2>Ready for a Healthier, Beautiful Smile?</h2>
-        <p>Book your appointment today. Mon–Sat: 10 AM – 2 PM & 6 PM – 9 PM. Sunday: Emergency only.</p>
-        <div class="cta-actions">
-          <a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone-alt"></i> Call Now</a>
-          <a href="#" id="ctaWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  </section>
+        function openNav() {
+            navMenu.classList.add("open");
+            overlay.classList.add("open");
+            document.body.style.overflow = "hidden";
+        }
 
-  <!-- ===== FAQ ===== -->
-  <section id="faq" class="section">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">FAQ</span>
-        <h2 class="section-title">Frequently Asked Questions</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="faq-list">
-        <div class="faq-item"><button class="faq-q">Do you provide all dental treatments? <i class="fas fa-plus"></i></button><div class="faq-a">Yes, we offer implants, root canal treatment, braces, teeth cleaning, whitening, kids dentistry, and all dental care under one roof.</div></div>
-        <div class="faq-item"><button class="faq-q">Is root canal treatment painful? <i class="fas fa-plus"></i></button><div class="faq-a">No. We use modern techniques and anaesthesia to ensure a completely painless root canal experience.</div></div>
-        <div class="faq-item"><button class="faq-q">How much do dental implants cost? <i class="fas fa-plus"></i></button><div class="faq-a">Cost varies by case. We offer transparent, affordable pricing. Call or WhatsApp for a free estimate.</div></div>
-        <div class="faq-item"><button class="faq-q">What are your clinic hours? <i class="fas fa-plus"></i></button><div class="faq-a">Mon–Sat: 10:00 AM – 2:00 PM & 6:00 PM – 9:00 PM. Sunday: Emergency only.</div></div>
-        <div class="faq-item"><button class="faq-q">Do you treat children? <i class="fas fa-plus"></i></button><div class="faq-a">Yes! We have a dedicated gentle pediatric dentistry service.</div></div>
-      </div>
-    </div>
-  </section>
+        function closeNav() {
+            navMenu.classList.remove("open");
+            overlay.classList.remove("open");
+            document.body.style.overflow = "";
+        }
 
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="section section-alt">
-    <div class="container">
-      <div class="section-head">
-        <span class="section-label">Find Us</span>
-        <h2 class="section-title">Contact Vedanta Dental Clinic</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="contact-wrap">
-        <div class="contact-info">
-          <h2>Let's Talk Dental</h2>
-          <div class="contact-row"><div class="contact-row-icon"><i class="fas fa-map-marker-alt"></i></div><div class="contact-row-text"><p>Address</p><p>H.No 35, Gurdwara Road, Opposite Kumar Optics, Jawahar Colony, Faridabad, Haryana 121005</p></div></div>
-          <div class="contact-row"><div class="contact-row-icon"><i class="fas fa-phone-alt"></i></div><div class="contact-row-text"><p>Phone</p><p>+91 99580 37979</p></div></div>
-          <div class="contact-row"><div class="contact-row-icon"><i class="far fa-clock"></i></div><div class="contact-row-text"><p>Hours</p><p>Mon–Sat: 10:00 AM – 2:00 PM & 6:00 PM – 9:00 PM<br>Sunday: Emergency Only</p></div></div>
-          <div class="contact-btns"><a href="tel:+919958037979" class="btn-gold"><i class="fas fa-phone"></i> Call Now</a><a href="#" id="contactWaBtn" class="btn-outline"><i class="fab fa-whatsapp"></i> WhatsApp</a></div>
-        </div>
-        <div class="map-wrap"><iframe src="https://maps.google.com/maps?q=Jawahar+Colony+Faridabad+Haryana&z=14&output=embed" allowfullscreen loading="lazy" title="Clinic map"></iframe></div>
-      </div>
-    </div>
-  </section>
-</main>
+        hamburger.addEventListener("click", openNav);
+        closeBtn.addEventListener("click", closeNav);
+        overlay.addEventListener("click", closeNav);
 
-<footer class="footer">
-  <div class="container">
-    <div class="footer-logo"><h3>Vedanta Dental Clinic</h3><p>Best Dentist in Faridabad | Trusted & Painless Care</p></div>
-    <div class="social-links"><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a></div>
-    <div class="footer-links"><a href="#home">Home</a><a href="#services">Services</a><a href="#team">Team</a><a href="#testimonials">Reviews</a><a href="#faq">FAQ</a><a href="#contact">Contact</a></div>
-    <div class="footer-bottom"><p>© 2025 Vedanta Dental Clinic | H.No 35, Gurudwara Road, Jawahar Colony, Faridabad, Haryana 121005</p><p style="margin-top:6px;">📞 +91 99580 37979 &nbsp;|&nbsp; 🦷 Painless Dentistry · Advanced Implants · Trusted Care</p></div>
-  </div>
-</footer>
-
-<a href="#" id="floatWa" class="float-wa"><i class="fab fa-whatsapp"></i></a>
-
-<!-- Hidden SEO -->
-<div style="display:none;"><h2>Dentist in Jawahar Colony Faridabad</h2><p>Best dental clinic near Dabua Faridabad providing root canal treatment, dental implants, braces, teeth cleaning and painless dentistry.</p></div>
-
-<!-- Schema Markup -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Dentist",
-  "name": "Vedanta Dental Clinic",
-  "image": "https://www.vedantadental.in/logo.png",
-  "telephone": "+919958037979",
-  "address": {"@type": "PostalAddress","streetAddress": "H.No 35, Gurdwar Road, Opposite Kumar Optics, Jawahar Colony","addressLocality": "Faridabad","addressRegion": "Haryana","postalCode": "121005"},
-  "openingHours": "Mo-Sa 10:00-14:00,18:00-21:00",
-  "aggregateRating": {"@type": "AggregateRating","ratingValue": "4.7","reviewCount": "1000"}
-}
-</script>
-
-<script>
-  const WA_PHONE = "919958037979";
-  const WA_MSG = encodeURIComponent("Hello Vedanta Dental Clinic, I'd like to book an appointment.");
-  const WA_URL = `https://wa.me/${WA_PHONE}?text=${WA_MSG}`;
-  function openWA(e) { e.preventDefault(); window.open(WA_URL, "_blank"); }
-  document.getElementById("heroWaBtn").addEventListener("click", openWA);
-  document.getElementById("ctaWaBtn").addEventListener("click", openWA);
-  document.getElementById("contactWaBtn").addEventListener("click", openWA);
-  document.getElementById("floatWa").addEventListener("click", openWA);
-
-  const hamburger = document.getElementById("hamburger");
-  const navMenu = document.getElementById("navMenu");
-  const overlay = document.getElementById("navOverlay");
-  const closeBtn = document.getElementById("closeNav");
-
-  function openNav() {
-    navMenu.classList.add("open");
-    overlay.classList.add("open");
-    document.body.style.overflow = "hidden";
-  }
-  function closeNav() {
-    navMenu.classList.remove("open");
-    overlay.classList.remove("open");
-    document.body.style.overflow = "";
-  }
-
-  hamburger.addEventListener("click", openNav);
-  closeBtn.addEventListener("click", closeNav);
-  overlay.addEventListener("click", closeNav);
-
-  // 🔥 FINAL MOBILE SCROLL FIX — reliable scroll with delay + scroll-margin
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener("click", function (e) {
-      const targetId = this.getAttribute("href");
-      if (targetId === "#") return;
-
-      const targetEl = document.querySelector(targetId);
-      if (!targetEl) return;
-
-      e.preventDefault();
-
-      // CLOSE MENU FIRST
-      closeNav();
-
-      // WAIT for animation to fully finish (350ms + buffer)
-      setTimeout(() => {
-        targetEl.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
+        // Mobile scroll fix
+        document.querySelectorAll('a[href^="#"]').forEach(link => {
+            link.addEventListener("click", function(e) {
+                const targetId = this.getAttribute("href");
+                if (targetId === "#") return;
+                const targetEl = document.querySelector(targetId);
+                if (!targetEl) return;
+                e.preventDefault();
+                closeNav();
+                setTimeout(() => {
+                    targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+                }, 400);
+            });
         });
-      }, 400);
-    });
-  });
 
-  // FAQ accordion
-  document.querySelectorAll(".faq-q").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const isOpen = btn.classList.contains("open");
-      document.querySelectorAll(".faq-q").forEach(b => { b.classList.remove("open"); b.nextElementSibling.classList.remove("open"); });
-      if (!isOpen) { btn.classList.add("open"); btn.nextElementSibling.classList.add("open"); }
-    });
-  });
+        // FAQ accordion
+        document.querySelectorAll(".faq-q").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const isOpen = btn.classList.contains("open");
+                document.querySelectorAll(".faq-q").forEach(b => { b.classList.remove("open");
+                    b.nextElementSibling.classList.remove("open"); });
+                if (!isOpen) { btn.classList.add("open");
+                    btn.nextElementSibling.classList.add("open"); }
+            });
+        });
 
-  // Intersection Observer for fade animations
-  const revealEls = document.querySelectorAll(".why-card, .doctor-card, .service-card, .problem-card, .testimonial-card, .gallery-card, .faq-item");
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.animation = "fadeUp 0.5s var(--ease) both";
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
-  revealEls.forEach(el => { el.style.opacity = "0"; observer.observe(el); });
-</script>
+        // Intersection Observer for fade animations
+        const revealEls = document.querySelectorAll(
+            ".why-card, .doctor-card, .service-card, .problem-card, .testimonial-card, .gallery-card, .faq-item");
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = "fadeUp 0.5s var(--ease) both";
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: "0px 0px -40px 0px" });
+        revealEls.forEach(el => { el.style.opacity = "0";
+            observer.observe(el); });
+
+        // ===== SERVICE POPUP DATA & LOGIC =====
+        const servicesData = {
+            rct: {
+                title: "Root Canal Treatment in Faridabad",
+                desc: "Root canal treatment is a procedure used to save an infected or damaged tooth. At Vedanta Dental Clinic, we provide completely painless RCT using advanced technology and modern techniques.",
+                points: [
+                    "Single visit root canal treatment available",
+                    "100% painless procedure with modern anesthesia",
+                    "Saves your natural tooth from extraction",
+                    "Advanced digital equipment for accuracy",
+                    "Affordable cost in Faridabad",
+                    "Performed by experienced dental surgeon",
+                    "Quick recovery and long-lasting results"
+                ]
+            },
+            implant: {
+                title: "Dental Implants in Faridabad",
+                desc: "Dental implants are the best permanent solution for missing teeth. They look, feel, and function like natural teeth and improve your smile and confidence.",
+                points: [
+                    "Permanent replacement of missing teeth",
+                    "Looks and feels like natural teeth",
+                    "Improves chewing and speech",
+                    "Long-lasting and durable solution",
+                    "No damage to nearby teeth",
+                    "Advanced implant technology used",
+                    "Safe and reliable procedure"
+                ]
+            },
+            braces: {
+                title: "Braces & Aligners Treatment",
+                desc: "Braces and aligners help straighten crooked or misaligned teeth, giving you a perfect smile and better oral health.",
+                points: [
+                    "Metal, ceramic & invisible braces available",
+                    "Clear aligners for invisible treatment",
+                    "Fix gaps, crowding & uneven teeth",
+                    "Improves facial appearance",
+                    "Suitable for both kids and adults",
+                    "Customized treatment plan",
+                    "Boosts confidence and smile"
+                ]
+            },
+            cleaning: {
+                title: "Teeth Cleaning & Scaling",
+                desc: "Professional teeth cleaning removes plaque, tartar, and stains, keeping your teeth and gums healthy.",
+                points: [
+                    "Removes plaque and tartar buildup",
+                    "Prevents gum disease and cavities",
+                    "Improves oral hygiene",
+                    "Freshens breath instantly",
+                    "Quick and painless procedure",
+                    "Recommended every 6 months",
+                    "Safe and effective cleaning"
+                ]
+            },
+            whitening: {
+                title: "Teeth Whitening Treatment",
+                desc: "Teeth whitening helps remove stains and gives you a bright, white smile instantly.",
+                points: [
+                    "Instant visible whitening results",
+                    "Safe and dentist-approved treatment",
+                    "Removes stains from tea, coffee & smoking",
+                    "Boosts confidence and smile",
+                    "Long-lasting brightness",
+                    "Quick and comfortable procedure",
+                    "No damage to teeth enamel"
+                ]
+            },
+            extraction: {
+                title: "Tooth Extraction",
+                desc: "Tooth extraction is done safely and painlessly when a tooth is damaged or infected beyond repair.",
+                points: [
+                    "Completely painless extraction",
+                    "Quick and safe procedure",
+                    "Prevents infection spread",
+                    "Wisdom tooth extraction available",
+                    "Proper aftercare guidance",
+                    "Fast healing process",
+                    "Done by experienced dentist"
+                ]
+            },
+            wisdom: {
+                title: "Wisdom Tooth Removal",
+                desc: "Wisdom tooth removal is required when the tooth causes pain, swelling, or infection.",
+                points: [
+                    "Safe surgical removal",
+                    "Minimal pain and swelling",
+                    "Quick recovery process",
+                    "Advanced surgical techniques",
+                    "Prevents future complications",
+                    "Handled by experienced specialist",
+                    "Post-treatment care provided"
+                ]
+            },
+            dentures: {
+                title: "Dentures Treatment",
+                desc: "Dentures are removable artificial teeth that replace missing teeth and restore your smile.",
+                points: [
+                    "Full and partial dentures available",
+                    "Natural-looking teeth replacement",
+                    "Comfortable and custom fit",
+                    "Improves chewing and speaking",
+                    "Affordable solution",
+                    "Lightweight and durable",
+                    "Enhances facial appearance"
+                ]
+            },
+            smile: {
+                title: "Smile Makeover Treatment",
+                desc: "Smile makeover combines multiple treatments to enhance your smile and facial appearance.",
+                points: [
+                    "Teeth whitening and polishing",
+                    "Fix gaps and alignment issues",
+                    "Veneers and reshaping",
+                    "Complete smile transformation",
+                    "Customized treatment plan",
+                    "Boosts confidence",
+                    "Natural and aesthetic results"
+                ]
+            },
+            kids: {
+                title: "Kids Dental Treatment",
+                desc: "We provide gentle and friendly dental care for children to ensure healthy teeth from an early age.",
+                points: [
+                    "Child-friendly environment",
+                    "Painless treatment for kids",
+                    "Cavity prevention and fillings",
+                    "Regular dental checkups",
+                    "Fun and comfortable experience",
+                    "Special pediatric care",
+                    "Focus on long-term dental health"
+                ]
+            },
+            gum: {
+                title: "Gum Treatment",
+                desc: "Gum treatment helps cure bleeding gums, infections, and prevents tooth loss.",
+                points: [
+                    "Stops bleeding gums",
+                    "Treats gum infection",
+                    "Prevents tooth loss",
+                    "Deep cleaning and scaling",
+                    "Improves gum health",
+                    "Advanced treatment methods",
+                    "Safe and effective procedure"
+                ]
+            },
+            laser: {
+                title: "Laser Dental Treatment",
+                desc: "Laser dentistry uses advanced technology for painless and precise dental treatments.",
+                points: [
+                    "Minimal pain and discomfort",
+                    "Faster healing time",
+                    "High precision treatment",
+                    "No bleeding procedures",
+                    "Modern advanced technology",
+                    "Safe and effective",
+                    "Less need for anesthesia"
+                ]
+            }
+        };
+
+        const popup = document.getElementById("servicePopup");
+        const popupTitle = document.getElementById("popupTitle");
+        const popupDesc = document.getElementById("popupDesc");
+        const popupPoints = document.getElementById("popupPoints");
+
+        document.querySelectorAll(".service-card").forEach(card => {
+            card.addEventListener("click", () => {
+                const key = card.getAttribute("data-service");
+                const data = servicesData[key];
+                if (!data) return;
+
+                popupTitle.innerText = data.title;
+                popupDesc.innerText = data.desc;
+
+                // Show fewer points on mobile (screen width <= 820px)
+                let pointsToShow = data.points;
+                if (window.innerWidth <= 820) {
+                    pointsToShow = data.points.slice(0, 3); // show only first 3 points
+                }
+
+                popupPoints.innerHTML = "";
+                pointsToShow.forEach(p => {
+                    popupPoints.innerHTML += `<li>✔ ${p}</li>`;
+                });
+                popup.classList.add("active");
+                document.body.style.overflow = "hidden";
+            });
+        });
+
+        document.querySelector(".close-popup").addEventListener("click", () => {
+            popup.classList.remove("active");
+            document.body.style.overflow = "";
+        });
+
+        popup.addEventListener("click", (e) => {
+            if (e.target === popup) {
+                popup.classList.remove("active");
+                document.body.style.overflow = "";
+            }
+        });
+
+        // Close popup with Escape key
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape" && popup.classList.contains("active")) {
+                popup.classList.remove("active");
+                document.body.style.overflow = "";
+            }
+        });
+    </script>
 </body>
 </html>
